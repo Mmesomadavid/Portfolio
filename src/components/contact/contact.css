@@ -1,0 +1,86 @@
+/* Default styles */
+.contact .section {
+    padding-bottom: 6.25rem;
+  }
+  
+  .contact__container {
+    display: grid;
+    grid-template-columns: 1fr; /* Default to a single column */
+    column-gap: 1.875rem;
+  }
+  
+  .contact__title {
+    font-size: var(--h3-font-size);
+    margin-bottom: 0.5rem;
+  }
+  
+  .contact__form-group {
+    display: grid;
+    grid-template-columns: 1fr; /* Default to a single column */
+    row-gap: 1.5rem;
+  }
+  
+  .contact__form-div {
+    position: relative;
+    margin-bottom: 1.875rem;
+    height: 3.75rem;
+  }
+  
+  .contact__form-input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: var(--shadow);
+    background-color: var(--container-color);
+    color: var(--text-color);
+    border: none;
+    outline: none;
+    border-radius: 1.875rem;
+    padding: 0.625rem 1.875rem;
+    z-index: 1;
+  }
+  
+  .contact__form-area {
+    height: 10.25rem;
+  }
+  
+  .contact__form-area textarea {
+    resize: none;
+  }
+  
+  /* Media queries for responsiveness */
+  @media (min-width: 768px) {
+    .contact__container {
+      grid-template-columns: 4fr 8fr; /* Two-column layout on larger screens */
+    }
+  
+    .contact__form-group {
+      grid-template-columns: repeat(2, 1fr); /* Two-column layout for form inputs */
+    }
+  }
+  
+/* Add animation for the pop-up card */
+.popup-card {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #2b088a;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.384);
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .popup-card.active {
+    opacity: 0.7;
+  }
+  
