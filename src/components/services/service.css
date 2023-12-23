@@ -1,0 +1,67 @@
+/* Default styles */
+.services__container {
+  display: grid;
+  grid-template-columns: 1fr; /* Single column by default */
+  column-gap: 1.875rem;
+}
+
+.services__card {
+  text-align: center;
+  padding: 0.475rem 1.2rem;
+  border-radius: var(--border-radius);
+  background-color: var(--container);
+  transition: all 0.3s ease-in-out;
+}
+
+.services__card img {
+  height: 250px;
+  width: 250px;
+}
+
+.services__card:hover {
+  transform: translateY(-10px);
+}
+
+.services__card:nth-child(1) {
+  background-color: rgb(233, 16, 16);
+  box-shadow: 0px 5px 20px 0px rgb(108, 108, 229 / 50%);
+}
+
+.services__card:nth-child(2) {
+  background-color: rgb(245, 103, 37);
+  box-shadow: 0px 5px 20px 0px rgb(249, 215, 76 / 50%);
+}
+
+.services__card:nth-child(3) {
+  background-color: rgb(22, 69, 197);
+  box-shadow: 0px 5px 20px 0px rgb(249, 123, 139 / 50%);
+}
+
+.services__img {
+  margin-bottom: 1.25rem;
+}
+
+.services__title {
+  font-size: var(--h3-font-size);
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.services__description {
+  color: #f8f9fa;
+}
+
+/* Media queries for responsiveness */
+@media (min-width: 768px) {
+  .services__container {
+    grid-template-columns: repeat(2, 1fr); /* Two columns on larger screens */
+    column-gap: 2.5rem; /* Increased gap between columns */
+  }
+}
+
+@media (min-width: 992px) {
+  .services__container {
+    grid-template-columns: repeat(3, 1fr); /* Three columns on even larger screens */
+    column-gap: 3.125rem; /* Increased gap between columns */
+  }
+}
