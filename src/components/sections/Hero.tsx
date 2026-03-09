@@ -10,6 +10,7 @@ import {
   HoverCardTrigger,
 } from "../ui/hover-card"
 import meImg from "../../assets/images/mex.jpg"
+import BannerImg from "../../assets/images/banner.jpg"
 
 const Hero = () => {
   return (
@@ -17,7 +18,7 @@ const Hero = () => {
       {/* Banner */}
       <div className="relative w-full h-40 sm:h-52 md:h-64 bg-slate-200">
         <img
-          src="https://media.licdn.com/dms/image/v2/D4D16AQGRAZwNmO40JA/profile-displaybackgroundimage-shrink_350_1400/B4DZh7daPbHwAY-/0/1754417966074?e=1762387200&v=beta&t=xDoNgEk0ANQy_e3Oeu-isVf0kISNbZILIF1Cw_YGoe0"
+          src={BannerImg}
           alt="Banner"
           className="w-full h-full object-cover"
         />
