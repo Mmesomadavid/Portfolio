@@ -16,16 +16,23 @@ const Hero = () => {
   return (
     <div className="min-h-screen bg-white flex flex-col">
       {/* Banner */}
-      <div className="relative w-full h-40 sm:h-52 md:h-64 bg-slate-200">
-        <img
-          src={BannerImg}
-          alt="Banner"
-          className="w-full h-full object-cover"
-        />
+      <div className="relative w-full">
+        {/* Banner */}
+        <div className="w-full h-36 sm:h-48 md:h-60 lg:h-64 bg-slate-200 overflow-hidden rounded-xl">
+          <img
+            src={BannerImg}
+            alt="Banner"
+            className="w-full h-full object-cover"
+          />
+        </div>
+        
         {/* Profile Avatar */}
-        <div className="absolute -bottom-12 sm:-bottom-16 left-1/2 sm:left-6 transform -translate-x-1/2 sm:translate-x-0 flex items-center">
-          <Avatar className="h-24 w-24 sm:h-32 sm:w-32 border-4 border-white shadow-lg">
-            <AvatarImage src={meImg} className="object-cover h-full w-full" />
+        <div className="absolute left-1/2 sm:left-6 -bottom-10 sm:-bottom-14 transform -translate-x-1/2 sm:translate-x-0">
+          <Avatar className="h-20 w-20 sm:h-28 sm:w-28 md:h-32 md:w-32 border-4 border-white shadow-lg">
+            <AvatarImage
+              src={meImg}
+              className="object-cover h-full w-full"
+            />
             <AvatarFallback>MD</AvatarFallback>
           </Avatar>
         </div>
