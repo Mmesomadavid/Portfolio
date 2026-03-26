@@ -11,6 +11,7 @@ import {
 } from "../ui/hover-card"
 import meImg from "../../assets/images/mex.jpg"
 import BannerImg from "../../assets/images/banner.jpg"
+import {Link} from "react-router-dom"
 
 const Hero = () => {
   return (
@@ -58,10 +59,12 @@ const Hero = () => {
             <Github className="h-5 w-5 fill-white" />
             Check Out My GitHub
           </Button>
-          <Button className="gap-2 px-6 h-11 sm:h-12 rounded-full">
+          <Link to="/freelance">
+            <Button className="gap-2 px-6 h-11 sm:h-12 rounded-full">
             <Code2 className="h-5 w-5 fill-white" />
-            Explore My work
-          </Button>
+             Explore My work
+            </Button>
+          </Link>
 
           {/* HoverCard Follow */}
           <HoverCard>

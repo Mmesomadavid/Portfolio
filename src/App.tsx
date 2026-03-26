@@ -1,5 +1,8 @@
 import { useEffect, useState } from "react";
+import { Routes, Route } from "react-router-dom";
+
 import Home from "./assets/pages/Home";
+import Freelance from "./Pages/Freelance";
 import Cursor from "./components/Cursor";
 import NewsletterModal from "./components/sections/NewsletterModal";
 
@@ -13,13 +16,11 @@ function App() {
     }
   }, []);
 
-  // Called when the user subscribes
   const handleSubscribe = () => {
     localStorage.setItem("subscribedToNewsletter", "true");
     setShowModal(false);
   };
 
-  // Called when user closes without subscribing
   const handleClose = () => {
     setShowModal(false);
   };
@@ -27,9 +28,14 @@ function App() {
   return (
     <>
       <Cursor />
-      <Home />
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/freelance" element={<Freelance />} />
+      </Routes>
+
       <NewsletterModal
-        open={showModal}           // ✅ pass open explicitly
+        open={showModal}
         onSubscribe={handleSubscribe}
         onClose={handleClose}
       />
