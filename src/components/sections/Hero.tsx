@@ -3,7 +3,7 @@
 import { motion } from "framer-motion"
 import { Button } from "../ui/button"
 import { Avatar, AvatarFallback, AvatarImage } from "../ui/avatar"
-import { Star, Plus, Github, Linkedin, Twitter,Code2 } from "lucide-react"
+import { Star, Plus, Github, Linkedin, Twitter,} from "lucide-react"
 import {
   HoverCard,
   HoverCardContent,
