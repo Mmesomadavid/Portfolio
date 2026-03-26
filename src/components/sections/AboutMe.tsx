@@ -43,15 +43,15 @@ const AboutMe = () => {
             DevOps, Cloud & AI/ML Engineer
           </h2>
           <p className="text-gray-600 mb-6">
-            I am a Cloud Infrastructure and AI/ML Engineer with hands-on
-            experience designing scalable systems, automating workflows, and
-            deploying intelligent solutions. My expertise spans DevOps
-            pipelines, cloud-native architecture, and machine learning systems —
-            from data preprocessing to deploying production-ready AI
-            applications.  
-            I am also passionate about sharing knowledge, building projects that
-            bridge infrastructure and AI, and contributing to the growing tech
-            community.
+           I am a Cloud Infrastructure and DevOps Engineer focused on building scalable, resilient, and production-ready systems that don’t just work — but hold up under real-world pressure.
+
+My approach to engineering is rooted in automation, reliability, and efficiency. I design and implement infrastructure that is reproducible, observable, and secure by default. From containerization and orchestration to CI/CD pipelines and infrastructure as code, I prioritize systems that can scale seamlessly while minimizing human intervention.
+
+I am currently deepening my expertise across modern DevOps tooling and cloud platforms, with hands-on experience building and deploying distributed systems that reflect real production environments. Rather than stopping at theory, I focus on practical implementation — creating systems with monitoring, logging, automated deployments, and failure handling built in from the ground up.
+
+Beyond infrastructure, I bring a strong problem-solving mindset and an understanding of how engineering decisions impact business outcomes. Whether it’s reducing deployment time, improving system reliability, or optimizing cloud costs, I aim to deliver solutions that are both technically sound and strategically valuable.
+
+I am actively seeking opportunities where I can contribute to building high-impact systems, collaborate with strong engineering teams, and continue growing into a world-class DevOps engineer.
           </p>
 
           {/* Image container */}

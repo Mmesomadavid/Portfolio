@@ -3,7 +3,7 @@
 import { motion } from "framer-motion"
 import { Button } from "../ui/button"
 import { Avatar, AvatarFallback, AvatarImage } from "../ui/avatar"
-import { Zap, Star, Plus, Github, Linkedin, Twitter } from "lucide-react"
+import { Star, Plus, Github, Linkedin, Twitter,Code2 } from "lucide-react"
 import {
   HoverCard,
   HoverCardContent,
@@ -49,14 +49,18 @@ const Hero = () => {
           Mmesoma David
         </h1>
         <p className="mt-2 text-base sm:text-lg text-slate-600 text-center sm:text-left">
-          Cloud Infrastructure & Machine Learning Engineer | MlOps
+          Cloud Infrastructure Engineer | DevOps Engineer | DevSecOps | MlOps | Freelance Web Developer
         </p>
 
         {/* Buttons */}
         <div className="mt-4 flex flex-col sm:flex-row gap-3 justify-center sm:justify-start">
           <Button className="gap-2 px-6 h-11 sm:h-12 rounded-full">
-            <Zap className="h-5 w-5 fill-white" />
-            Get in touch
+            <Github className="h-5 w-5 fill-white" />
+            Check Out My GitHub
+          </Button>
+          <Button className="gap-2 px-6 h-11 sm:h-12 rounded-full">
+            <Code2 className="h-5 w-5 fill-white" />
+            Explore My work
           </Button>
 
           {/* HoverCard Follow */}
