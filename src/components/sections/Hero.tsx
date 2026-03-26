@@ -138,12 +138,7 @@ const Hero = () => {
         <div className="mt-8">
           <h2 className="text-lg sm:text-xl font-semibold text-slate-900">About</h2>
           <p className="mt-3 text-sm sm:text-base text-slate-600 leading-relaxed text-justify sm:text-left">
-            I am a passionate Cloud Infrastructure & Machine Learning Engineer
-            with expertise in designing scalable cloud solutions, implementing
-            DevOps pipelines, and building AI-powered systems. My background
-            spans backend engineering, MLOps, automation, and data-driven
-            problem solving — enabling me to bridge the gap between software
-            engineering, infrastructure, and applied artificial intelligence.
+            I am a Cloud Infrastructure and DevOps Engineer focused on building scalable, resilient, and production-ready systems that don’t just work, but hold up under real-world pressure. My approach to engineering is rooted in automation, reliability, and efficiency. I design and implement infrastructure that is reproducible, observable, and secure by default. From containerization and orchestration to CI/CD pipelines and infrastructure as code, I prioritize systems that can scale seamlessly while minimizing human intervention. I am currently deepening my expertise across modern DevOps tooling and cloud platforms, with hands-on experience building and deploying distributed systems that reflect real production environments. Rather than stopping at theory, I focus on practical implementation — creating systems with monitoring, logging, automated deployments, and failure handling built in from the ground up. Beyond infrastructure, I bring a strong problem-solving mindset and an understanding of how engineering decisions impact business outcomes. Whether it’s reducing deployment time, improving system reliability, or optimizing cloud costs, I aim to deliver solutions that are both technically sound and strategically valuable. I am actively seeking opportunities where I can contribute to building high-impact systems, collaborate with strong engineering teams, and continue growing into a world-class DevOps engineer.
           </p>
         </div>
 
@@ -153,30 +148,11 @@ const Hero = () => {
           <div className="mt-3 flex flex-wrap gap-2">
             {[
               "Python",
-              "Pandas",
-              "NumPy",
-              "Scikit-learn",
-              "TensorFlow",
-              "PyTorch",
-              "Keras",
-              "Hugging Face Transformers",
-              "LangChain",
-              "OpenAI API",
-              "MLflow",
-              "Weights & Biases (W&B)",
               "Jupyter Notebooks",
-              "Data Visualization (Matplotlib, Seaborn, Plotly)",
-              "Feature Engineering",
-              "Supervised Learning",
-              "Unsupervised Learning",
-              "Deep Learning",
-              "NLP",
-              "Computer Vision",
-              "Reinforcement Learning",
-              "Generative AI",
+              "React",
+              "Typescript",
               "MLOps",
               "Model Deployment",
-              "Vector Databases (Pinecone, Weaviate, FAISS)",
               "Linux",
               "Bash/Shell Scripting",
               "Git & GitHub/GitLab",
@@ -188,6 +164,7 @@ const Hero = () => {
               "Ansible",
               "Prometheus",
               "Grafana",
+              "Loki",
               "AWS (EC2, S3, Lambda, EKS, SageMaker)",
               "Google Cloud (GCP)",
               "Azure",
@@ -200,6 +177,11 @@ const Hero = () => {
               "Databases (PostgreSQL, MongoDB, Redis)",
               "API Development",
               "Serverless Frameworks",
+              "Notion",
+              "Google Meet",
+              "Microsoft Teams",
+              "Notion",
+              "Team work & Collaboration"
             ].map((skill) => (
               <span
                 key={skill}
