@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 import type { Variants, Transition } from "framer-motion"
 import { Card, CardContent, CardTitle, CardDescription } from "../ui/card"
 import { ArrowRight } from "lucide-react"
-import MeImg from '../../assets/images/me.jpg'
+import MeImg from '../../assets/images/mex.jpg'
 
 const containerVariant: Variants = {
   hidden: {},

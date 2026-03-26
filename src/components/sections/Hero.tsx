@@ -50,19 +50,15 @@ const Hero = () => {
           Mmesoma David
         </h1>
         <p className="mt-2 text-base sm:text-lg text-slate-600 text-center sm:text-left">
-          Cloud Infrastructure Engineer | DevOps Engineer | DevSecOps | MlOps | Freelance Web Developer
+          loud Infrastructure Engineer | DevOps & DevSecOps
         </p>
 
         {/* Buttons */}
         <div className="mt-4 flex flex-col sm:flex-row gap-3 justify-center sm:justify-start">
-          <Button className="gap-2 px-6 h-11 sm:h-12 rounded-full">
-            <Github className="h-5 w-5 fill-white" />
-            Github
-          </Button>
-          <Link to="/freelance">
+          <Link to="https://github.com/Mmesomadavid">
             <Button className="gap-2 px-6 h-11 sm:h-12 rounded-full">
-            <Code2 className="h-5 w-5 fill-white" />
-             Explore My work
+              <Github className="h-5 w-5 fill-white" />
+              Github
             </Button>
           </Link>
 
