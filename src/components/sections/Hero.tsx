@@ -57,7 +57,7 @@ const Hero = () => {
         <div className="mt-4 flex flex-col sm:flex-row gap-3 justify-center sm:justify-start">
           <Button className="gap-2 px-6 h-11 sm:h-12 rounded-full">
             <Github className="h-5 w-5 fill-white" />
-            Check Out My GitHub
+            Github
           </Button>
           <Link to="/freelance">
             <Button className="gap-2 px-6 h-11 sm:h-12 rounded-full">
